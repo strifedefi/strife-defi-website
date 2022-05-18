@@ -1,0 +1,191 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import url("https://fonts.googleapis.com/css2?family=Catamaran&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Red+Rose&family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+// 269FBA blue
+// EE6C4D orange
+// 59D99D green
+// E2C044 yellow
+// 473BF0 blue ryb
+
+html {
+  height: 100%;
+}
+
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10% auto;
+}
+
+#main {
+  margin-bottom: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+
+#btns {
+  margin-top: 50px;
+}
+
+#nav {
+  margin: 50px auto;
+  border-bottom: 1px solid #ffffff;
+  font-family: "Roboto Mono", monospace;
+}
+
+.nav > li > a {
+  padding: 10px 25px;
+}
+
+a {
+  color: #ffffff;
+}
+
+body {
+  background-color: #333333;
+  height: 100%;
+  width: 100%;
+  color: #ffffff;
+}
+
+.front-page {
+  width: 100%;
+}
+
+h1 {
+  font-family: "Red Rose", cursive;
+  margin-bottom: 0px;
+}
+
+h2 {
+  font-size: 22px;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.container {
+  flex-grow: 1;
+}
+
+#footer {
+  bottom: 0;
+  position: absolute;
+  height: 1rem;
+}
+
+.h6 {
+  padding: 20px;
+}
+
+#nav-ul {
+  padding-bottom: 50px;
+  font-size: 20px;
+}
+
+#nav-a:hover {
+  background-color: #333333 !important;
+  color: #dc8f09;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  display: inline;
+  color: #2176ff;
+}
+
+.parent li {
+  font-size: 20px;
+}
+
+.about-li {
+  font-size: 25px;
+}
+
+.content-wrapper {
+  padding-bottom: 1rem;
+}
+
+#btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto auto;
+}
+
+.btn-blue {
+  width: 225px;
+  height: 50px;
+  font-size: 18px;
+  background: #2176ff;
+  border-radius: 5px;
+  border: 1px solid #2176ff;
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.btn-blue:hover {
+  background: #333333;
+  border: 1px solid #2176ff;
+  border-radius: 5px;
+  color: #2176ff;
+  text-decoration: none;
+}
+
+.btn-white {
+  // position: absolute;
+  width: 225px;
+  height: 50px;
+  font-size: 18px;
+  color: #2176ff;
+  background: #333333;
+  border: 1px solid #2176ff;
+  box-sizing: border-box;
+  border-radius: 5px;
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-white:hover {
+  background: #2176ff;
+  border: 1px solid #2176ff;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#footer a {
+  font-size: 16px;
+}
+
+.list-group-item {
+ background: #333333; 
+ border: none;
+ padding-left: 3rem; 
+}
+
+.list-group-item:hover {
+  color: #dc8f09;
+  text-decoration: none;
+}
+
+
+.blog-text {
+  color: #ffffff;
+}
+
+#article_body, #article_title {
+  color: black;
+}
+
+.title-header {
+  padding-left: 30px;
+}

@@ -1,0 +1,33 @@
+<div class="front-page">
+  <div class="parent" id="nav">
+      <%= render "./partials/nav" %> 
+  </div>
+
+  <div>
+    <div class="parent" id="main">
+      <div>
+        <h1 >I'm Cloud</h1>
+        <h2>full stack software engineer who</h2>
+        <li class="about-li">> works with [ <p>Solidity, React, Ruby on Rails, blockchain</p> ].</li>
+        <li class="about-li">> wrote about “<p>Understanding the Tokenomics of Cryptocurrency.</p>”</li>
+        <li class="about-li">> tweeted “<p>Thanks for reminding me I need to solve my issue of false signals 😂</p>.”</li>
+      </div>
+    </div>
+  </div>
+      <div id="btns">
+      
+        <%= mail_to "strifedefi@protonmail.com", 'Contact', class: "btn-blue" %>
+        <%= link_to "Latest Blog", '/articles', class: "btn-white" %>
+      </div>
+
+  <div class="content-wrapper">
+  </div>
+
+  <%
+=begin%>
+ <div class="parent">
+    <%= render "./partials/footer" %>
+  </div>
+</div> 
+<%
+=end%>
