@@ -120,7 +120,7 @@ p {
 .btn-blue {
   width: 225px;
   height: 50px;
-  font-size: 18px;
+  font-size: 1.225em;
   background: #2176ff;
   border-radius: 5px;
   border: 1px solid #2176ff;
@@ -143,7 +143,7 @@ p {
   // position: absolute;
   width: 225px;
   height: 50px;
-  font-size: 18px;
+  font-size: 1.225em;
   color: #2176ff;
   background: #333333;
   border: 1px solid #2176ff;
@@ -167,9 +167,9 @@ p {
 }
 
 .list-group-item {
- background: #333333; 
- border: none;
- padding-left: 3rem; 
+  background: #333333;
+  border: none;
+  padding-left: 3rem;
 }
 
 .list-group-item:hover {
@@ -177,12 +177,12 @@ p {
   text-decoration: none;
 }
 
-
 .blog-text {
   color: #ffffff;
 }
 
-#article_body, #article_title {
+#article_body,
+#article_title {
   color: black;
 }
 
