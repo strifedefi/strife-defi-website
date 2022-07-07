@@ -31,7 +31,7 @@ html {
 
 #nav {
   margin: 50px auto;
-  border-bottom: 1px solid #ffffff;
+  border-bottom: 1px solid #333333;
   font-family: "Roboto Mono", monospace;
 }
 
@@ -40,14 +40,14 @@ html {
 }
 
 a {
-  color: #ffffff;
+  color: #333333;
 }
 
 body {
-  background-color: #333333;
+  background-color: #fffcf7; //#333333
   height: 100%;
   width: 100%;
-  color: #ffffff;
+  color: #333333;
 }
 
 .front-page {
@@ -81,12 +81,12 @@ h2 {
 
 #nav-ul {
   padding-bottom: 50px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #nav-a:hover {
-  background-color: #333333 !important;
-  color: #dc8f09;
+  background-color: #fffcf7 !important;
+  color: #2176ff;
 }
 
 li {
@@ -99,11 +99,11 @@ p {
 }
 
 .parent li {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .about-li {
-  font-size: 25px;
+  font-size: 18px;
 }
 
 .content-wrapper {
@@ -123,30 +123,27 @@ p {
   font-size: 1.225em;
   background: #2176ff;
   border-radius: 5px;
-  border: 1px solid #2176ff;
   margin: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  color: #fffcf7;
 }
 
 .btn-blue:hover {
-  background: #333333;
-  border: 1px solid #2176ff;
-  border-radius: 5px;
-  color: #2176ff;
+  background: #fffcf7;
+  color: #dc8f09;
   text-decoration: none;
+  border: 1px solid #dc8f09;
 }
 
 .btn-white {
-  // position: absolute;
   width: 225px;
   height: 50px;
   font-size: 1.225em;
-  color: #2176ff;
+  color: #dc8f09;
   background: #333333;
-  border: 1px solid #2176ff;
   box-sizing: border-box;
   border-radius: 5px;
   margin: 40px;
@@ -156,9 +153,9 @@ p {
 }
 
 .btn-white:hover {
-  background: #2176ff;
+  background: #fffcf7;
   border: 1px solid #2176ff;
-  color: #ffffff;
+  color: #2176ff;
   text-decoration: none;
 }
 
@@ -167,7 +164,7 @@ p {
 }
 
 .list-group-item {
-  background: #333333;
+  background: #fffcf7;
   border: none;
   padding-left: 3rem;
 }
@@ -178,12 +175,17 @@ p {
 }
 
 .blog-text {
-  color: #ffffff;
+  color: #333333;
 }
 
 #article_body,
 #article_title {
   color: black;
+}
+
+.article-header {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
 }
 
 .title-header {

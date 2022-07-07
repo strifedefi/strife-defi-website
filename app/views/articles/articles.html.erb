@@ -3,21 +3,14 @@
       <%= render "./partials/nav" %> 
   </div>
 
-
-<%
-=begin%>
  <ul class="list-group" id="articles">
   <% @articles.each do |article| %>
     <%= link_to article do%>
       <li class="list-group-item">                
-        <%= article.created_at.localtime %>
+        <%= article.created_at.to_date.strftime('%a, %e %b %Y') %>
         -
         <%= article.title %>
       </li>
     <% end %>
   <% end %>
 </ul> 
-<%
-=end%>
-
-<h1 class="title-header">Coming Soon</h1>
